@@ -1,6 +1,6 @@
 ---
 layout: events-collection
-permalink: /evts/
+permalink: /landscape/evts/
 collection: events
 entries_layout: grid
 sort_by: date
