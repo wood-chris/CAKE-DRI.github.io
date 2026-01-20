@@ -16,7 +16,7 @@ main:
   - title: "DRI Landscape"
     sublinks:
     - title: "Projects"
-      url: /landscape/projects
+      url: /evts
     - title: "Systems"
       url: /landscape/systems
     - title: "New approaches to software"
