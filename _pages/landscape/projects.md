@@ -1,4 +1,5 @@
 ---
+title: test
 layout: projects-collection
 permalink: /landscape/projects/
 collection: landscape-projects
