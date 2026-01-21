@@ -1,6 +1,26 @@
+
 {% assign entries = site[include.collection] %}
-{% assign entries = entries | sort_natural: "title" %}
+
+{% if include.sort_by == 'title' %}
+  {% if include.sort_order == 'reverse' %}
+    {% assign entries = entries | where: "group", "projects" | sort: 'title' | reverse %}
+  {% else %}
+    {% assign entries = entries | where: "group", "projects" | sort: 'title' %}
+  {% endif %}
+{% elsif include.sort_by == 'date' %}
+  {% if include.sort_order == 'reverse' %}
+    {% assign entries = entries | where: "group", "projects" | sort: 'date' | reverse %}
+  {% else %}
+    {% assign entries = entries | where: "group", "projects" | sort: 'date' %}
+  {% endif %}
+{% elsif include.sort_by == 'order' %}
+  {% if include.sort_order == 'reverse' %}
+    {% assign entries = entries | where: "group", "projects" | sort: 'order' | reverse %}
+  {% else %}
+    {% assign entries = entries | where: "group", "projects" | sort: 'order' %}
+  {% endif %}
+{% endif %}
 
 {%- for entry in entries -%}
-  {% include funds-entry.html entry=entry %}
+  {% include entry.html %}
 {%- endfor -%}
