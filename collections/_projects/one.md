@@ -4,7 +4,7 @@ icon_alt: Award icon
 categories:
   - Projects
 group: projects
-layout: post
+layout: project
 order: 1
 image: assets/images/project-images/project_1.webp
 project-type: Training
