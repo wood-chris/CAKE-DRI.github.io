@@ -5,9 +5,9 @@ categories:
   - Projects
 group: projects
 layout: post
-order: 5
-image: assets/images/project-images/project_5.webp
-project-type: Training
+order: 3
+image: assets/images/project-images/project_3.webp
+project-type: Code development
 contact-name: Test Person
 contact-email: test@test.com
 web-page: https://www.myproject.com

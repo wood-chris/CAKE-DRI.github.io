@@ -5,9 +5,9 @@ categories:
   - Projects
 group: projects
 layout: post
-order: 5
-image: assets/images/project-images/project_5.webp
-project-type: Training
+order: 6
+image: assets/images/project-images/project_6.webp
+project-type: Data intensive computing
 contact-name: Test Person
 contact-email: test@test.com
 web-page: https://www.myproject.com

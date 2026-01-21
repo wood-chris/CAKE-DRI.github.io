@@ -2,8 +2,9 @@
 layout: title-page
 ---
 
-<div class="events-block-group">
-  <div class="events-block-group__inner-container">
-    {% include projects-collection.html collection="landscape-projects" sort_by=page.sort_by sort_order=page.sort_order archive=false %}
-  </div>
+<h2>Is your DRI project missing?</h2>
+<p><a href="https://cake.ac.uk/projects/add/">Complete our form</a> to have it featured and help connect others with your work!</p>
+
+<div class="project-grid">
+  {% include projects-collection.html collection="projects" sort_by=page.sort_by sort_order=page.sort_order %}
 </div>

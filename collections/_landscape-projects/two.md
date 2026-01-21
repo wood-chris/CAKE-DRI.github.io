@@ -5,12 +5,11 @@ categories:
   - Projects
 group: projects
 layout: post
-order: 5
-image: assets/images/project-images/project_5.webp
-project-type: Training
+order: 2
+image: assets/images/project-images/project_2.webp
+project-type: Community building
 contact-name: Test Person
 contact-email: test@test.com
-web-page: https://www.myproject.com
 ---
 
 More information soon to be added! 
