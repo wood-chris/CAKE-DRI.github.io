@@ -151,6 +151,9 @@ collections:
   funds:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 category_archive:
   type: liquid
