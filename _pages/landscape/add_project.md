@@ -1,11 +1,12 @@
 ---
 title: Add details about a new CAKE-related project
 layout: title-page
-permalink: /landscape/projects/add/
+permalink: /landscape/add_project/
 ---
 
+We've got various examples of projects within the DRI-space in this section of the website, but we want more!
 
-We have two ways that you can add details of your new project to our page showcasing CAKE-related work:
+We have two ways that you can add details of your new or existing project showcasing any CAKE-related work:
 
  - <a href="https://github.com/CAKE-DRI/cake.github.io" target="_blank">Submit a pull request to the Github repository for our website</a>, adding an appropriate md file into the `collections/_landscape-projects` directory
  - Use the form below. Note that if your project has an image to be displayed with the listing, this will need to be emailed separately to <cake-management@mlist.is.ed.ac.uk>, or you can submit a Github pull request to add the image to the `assets/images/project-images/` folder in our website repo: <https://github.com/CAKE-DRI/CAKE-DRI.github.io>.

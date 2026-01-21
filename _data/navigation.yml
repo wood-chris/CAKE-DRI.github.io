@@ -15,8 +15,8 @@ main:
     url: /news/
   - title: "DRI Landscape"
     sublinks:
-    - title: "Projects"
-      url: /landscape/projects
+    - title: "Add your CAKE-related projects!"
+      url: /landscape/add_project
     - title: "Systems"
       url: /landscape/systems
     - title: "New approaches to software"
