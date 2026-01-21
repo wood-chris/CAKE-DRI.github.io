@@ -151,7 +151,7 @@ collections:
   funds:
     output: true
     permalink: /:collection/:path/
-  projects:
+  landscape-projects:
     output: true
     permalink: /:collection/:path/
 
