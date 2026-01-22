@@ -1,6 +1,6 @@
 ---
 layout: project-collection
-permalink: /landscape/projects/
+permalink: /projects/
 collection: projects
 entries_layout: grid
 sort_by: date
